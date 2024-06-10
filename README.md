@@ -13,7 +13,7 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 * Hardware: NVIDIA Tesla V100-PCIE-32GB
 ## Installation
 * clone this repository:
-* 
+
 ```bash
 git clone https://github.com/chenh2lab/TGY_2023
 cd TGY_2023
