@@ -1,0 +1,61 @@
+meeting slides uploading
+
+- Progress_report_20230922
+  Works:
+    1. SimCLR: A Simple Framework for Contrastive Learning of Visual Representations
+  Others:
+    1. TA works & homework
+
+- Progress_report_20230927
+  Works:
+    1. Reshape the patch size into 512 * 512 pixel
+    2. Teach how to download the image data from TCGA database
+
+- Progress_report_20231004
+  Works:
+    1. Finish SimCLR model training
+    2. Reshape the patch size into 512*512 pixel and use trained tissue type classification model to classify tumor patch (reduce patch number)
+
+- Progress_report_20231011
+  Works:
+    1. Use trained SimCLR model to extract feature
+    2. Train inception v3 and densenet121 model (patch-level prediction)    
+    3. Big lab meeting paper presentation
+  Others:
+    1. TA works & homework
+
+- Progress_report_20231020
+  Works:
+    1. Recheck TCGA patches and do quality control
+    2. Retrain CNN models for patch-level prediction    
+    3. AACR abstract (finish 300 words) 
+  Others:
+    1. TA works & homework
+
+- Progress_report_20231025
+  Works:
+    1. Gene mutation prediction (APC and TP53)
+    2. Utilize cBioPortal database to explore complete mutation data      
+    3. Prepare big lab meeting paper presentation
+
+- Progress_report_20231101
+  Works:
+    1. TP53 mutation prediction (ResNet101, DenseNet201 and Inception-ResNet-v2)
+    2. Finish AACR abstract   
+    3. Finish big lab meeting paper presentation
+
+- Progress_report_20231122
+  Works:
+    1. Repeat KRAS mutation prediction (attention-based model) from published paper
+    2. Repeat KRAS mutation prediction (transformer-based model) from published paper 
+
+- Progress_report_20231129
+  Works:
+    1. Implement AttMIL (attention-based multiple instance learning) to KRAS mutation prediction
+    2. Implement TransMIL (transformer-based correlated multiple instance learning) to KRAS mutation prediction
+ 
+
+
+
+
+
