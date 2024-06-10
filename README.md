@@ -3,8 +3,10 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 ## Pipeline
 **Stage 1: feature extractor training**
 ![Pipeline](./imgs/pipeline_1.jpg)
+
 **Stage 2: biomarker prediction model training and internal testing**
 ![Pipeline](./imgs/pipeline_2.jpg)
+
 **Stage 3: biomarker prediction model external testing**
 ![Pipeline](./imgs/pipeline_3.jpg)
 ## Prerequisites
