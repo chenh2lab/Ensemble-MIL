@@ -14,4 +14,5 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 ## Installation
 * clone this repository:
 ```bash
-git clone 
+git clone https://github.com/chenh2lab/TGY_2023
+cd TGY_2023
