@@ -16,7 +16,7 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 * Download `TCGA-COAD` whole slide images from [GDC portal](https://portal.gdc.cancer.gov) for model training and internal testing.
 * Download `CPTAC-COAD` whole slide images from [CIP Cancer Imaging Program](https://www.cancerimagingarchive.net/collection/cptac-coad/) for model external testing.
 * Download corresponding biomarker label data for TCGA-COAD and CPTAC-COAD from [cBioPortal](https://www.cbioportal.org).
-### patch-level tissue category dataset
+### Patch-level tissue category dataset
 * Download [TCGA-HE-89K](https://zenodo.org/records/4024676) dataset for tumor detection model training
 ## Installation
 ### clone this repository:
