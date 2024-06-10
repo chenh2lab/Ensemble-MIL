@@ -6,8 +6,12 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 * **Stage 2: biomarker prediction model training and internal testing**
 ![Pipeline](./imgs/pipeline_2.jpg)
 * **Stage 3: biomarker prediction model external testing**
-* ![Pipeline](./imgs/pipeline_3.jpg)
+![Pipeline](./imgs/pipeline_3.jpg)
 ## Prerequisites
 * Operating system: CentOS 7.8
 * Programmimg language: Python 3, shell script
 * Hardware: NVIDIA Tesla V100-PCIE-32GB
+## Installation
+* clone this repository:
+```bash
+git clone 
