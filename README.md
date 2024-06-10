@@ -9,7 +9,7 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 ![Pipeline](./imgs/pipeline_3.jpg)
 ## Prerequisites
 * Operating system: CentOS 7.8
-* Programmimg language: Python 3, shell script
+* Programmimg language: Python 3, sh
 * Hardware: NVIDIA Tesla V100-PCIE-32GB
 ## Installation
 * clone this repository:
@@ -18,8 +18,10 @@ git clone https://github.com/chenh2lab/TGY_2023
 cd TGY_2023
 ```
 * setup environment
+  * `PyHIST.yml` is for image preprocessing (patch generation)
+  * `PyTorch.yml` is for DL model training
 ```bash
 cd envs
-conda env create -f PyTorch.yml
 conda env create -f PyHIST.yml
+conda env create -f PyTorch.yml
 ```
