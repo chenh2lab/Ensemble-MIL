@@ -32,3 +32,8 @@ cd envs
 conda env create -f PyHIST.yml
 conda env create -f PyTorch.yml
 ```
+## Image preprocessing
+Cut WSI into 512 * 512 pixels patches
+```bash
+sh ./image_preprocessing/patch_generation/pyhist.sh
+```
