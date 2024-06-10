@@ -13,20 +13,20 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 * Hardware: NVIDIA Tesla V100-PCIE-32GB
 ## Data download
 **WSI & biomarker label**
-* Download `TCGA-COAD` whole slide images from [GDC portal](https://portal.gdc.cancer.gov) for model training and internal testing
-* Download `CPTAC-COAD` whole slide images from [CIP Cancer Imaging Program](https://www.cancerimagingarchive.net/collection/cptac-coad/) for model external testing
-* Download corresponding biomarker label data for TCGA-COAD and CPTAC-COAD from [cBioPortal](https://www.cbioportal.org)
-###### patch-level tissue category dataset
+* Download `TCGA-COAD` whole slide images from [GDC portal](https://portal.gdc.cancer.gov) for model training and internal testing.
+* Download `CPTAC-COAD` whole slide images from [CIP Cancer Imaging Program](https://www.cancerimagingarchive.net/collection/cptac-coad/) for model external testing.
+* Download corresponding biomarker label data for TCGA-COAD and CPTAC-COAD from [cBioPortal](https://www.cbioportal.org).
+**patch-level tissue category dataset**
 * Download [TCGA-HE-89K](https://zenodo.org/records/4024676) dataset for tumor detection model training
 ## Installation
-* clone this repository:
+**clone this repository:**
 ```bash
 git clone https://github.com/chenh2lab/TGY_2023
 cd TGY_2023
 ```
-* setup environment
-  * `PyHIST.yml` is for image preprocessing (patch generation)
-  * `PyTorch.yml` is for DL model training
+**setup environment:**
+* `PyHIST.yml` is for image preprocessing (patch generation)
+* `PyTorch.yml` is for DL model training
 ```bash
 cd envs
 conda env create -f PyHIST.yml
