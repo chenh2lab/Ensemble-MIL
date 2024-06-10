@@ -37,3 +37,4 @@ Cut WSI into 512 * 512 pixels patches
 ```bash
 sh ./image_preprocessing/patch_generation/pyhist.sh
 ```
+## Tumor detection model
