@@ -12,7 +12,7 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 * Programmimg language: Python 3, sh
 * Hardware: NVIDIA Tesla V100-PCIE-32GB
 ## Data download
-#### WSI & biomarker label
+### WSI & biomarker label
 * Download `TCGA-COAD` whole slide images from [GDC portal](https://portal.gdc.cancer.gov) for model training and internal testing.
 * Download `CPTAC-COAD` whole slide images from [CIP Cancer Imaging Program](https://www.cancerimagingarchive.net/collection/cptac-coad/) for model external testing.
 * Download corresponding biomarker label data for TCGA-COAD and CPTAC-COAD from [cBioPortal](https://www.cbioportal.org).
