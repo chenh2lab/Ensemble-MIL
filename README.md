@@ -1,7 +1,7 @@
 # Prediction of generalizable biomarker from colorectal adenocarcinoma whole slide images via integrated deep learning pipeline
 Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI directly from pathological images in colorectal cancer
 ## Pipeline
-* Stage 1: feature extractor training
+* *Stage 1: feature extractor training*
 ![Pipeline](./imgs/pipeline_1.jpg)
 * Stage 2: biomarker prediction model training and internal testing
 ![Pipeline](./imgs/pipeline_2.jpg)
