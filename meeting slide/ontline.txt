@@ -78,13 +78,60 @@ meeting slides uploading
     1. Experiment repeatability (tumor detection model) 
     2. OncoKB (An FDA-Recognized Human Genetic Variant Database) 
 
-- Progress_report_20240117
+- Progress_report_20240124
   Works:
     1. New dataset for tumor classification model training (TCGA-HE-89K)  
     2. Independent cohort for final evaluation (CPTAC-COAD) 
 
- 
+ - Progress_report_20240222
+  Works:
+    1. Patch generation tool comparison (PyHIST v.s Slideflow)
+    2. Tumor detection model cross dataset validation 
+    3. Tissue category map (sliding window algorithm)
+    4. Finish feature extractor training (pretrained on NCT-CRC-HE-100K)
+  Others:
+    1. AACR 科技部補助文件
 
+ - Progress_report_20240307
+  Works:
+    1. Compare different feature extractor results in attention-based model and transformer-based model
+    2. Arrange CPTAC-COAD external testing dataset
+    3. Finish big lab meeting progress presentation
+
+ - Progress_report_20240321
+  Works:
+    1. Attention weight heatmap (BRAF)
+    2. Finish AACR poster
+
+ - Progress_report_20240328
+  Works:
+    1. Literature comparison
+    2. Thesis Chinese and English title confirmation
+
+ - Progress_report_20240425
+  Works:
+    1. CPTAC-COAD for internal dataset and TCGA-COAD for external dataset
+    2. Thesis outline
+  Others:
+    1. DLMI course project
+    2. Finish AACR 國科會補助核銷 & 出國報告
+
+ - Progress_report_20240502
+  Works:
+    1. Thesis outline
+    2. Write Introduction
+
+ - Progress_report_20240509
+  Works:
+    1. Literature comparison
+    2. Write Introduction
+
+ - Progress_report_20240530
+  Works:
+    1. Graph neural network as third biomarker prediction model
+  Others:
+    1. Generative AI competition
+    2. Electric Circuits TA works
 
 
 
