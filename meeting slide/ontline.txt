@@ -54,7 +54,36 @@ meeting slides uploading
     1. Implement AttMIL (attention-based multiple instance learning) to KRAS mutation prediction
     2. Implement TransMIL (transformer-based correlated multiple instance learning) to KRAS mutation prediction
  
+- Progress_report_20231206
+  Works:
+    1. AttMIL (attention-based multiple instance learning)
+      - BRAF mutation prediction
+      - HER2 negative/positive prediction (functional protein)
+      - MSI prediction
+    2. TransMIL (transformer-based multiple instance learning)
+      - BRAF mutation prediction
+      - HER2 negative/positive prediction (functional protein)
+      - MSI prediction
 
+- Progress_report_20240103
+  Works:
+    1. Grad-CAM (Gradient-weighted Class Activation Mapping)
+    2. Finish SimCLR training on TCGACOAD tumor patches
+    3. AttMIL & TransMIL are trained by pretrained CNN, SimCLR features
+      - KRAS, BRAF mutation prediction
+      - MSI prediction
+
+- Progress_report_20240110
+  Works:
+    1. Experiment repeatability (tumor detection model) 
+    2. OncoKB (An FDA-Recognized Human Genetic Variant Database) 
+
+- Progress_report_20240117
+  Works:
+    1. New dataset for tumor classification model training (TCGA-HE-89K)  
+    2. Independent cohort for final evaluation (CPTAC-COAD) 
+
+ 
 
 
 
