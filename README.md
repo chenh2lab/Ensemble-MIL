@@ -19,12 +19,12 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 ### patch-level tissue category dataset
 * Download [TCGA-HE-89K](https://zenodo.org/records/4024676) dataset for tumor detection model training
 ## Installation
-**clone this repository:**
+### clone this repository:
 ```bash
 git clone https://github.com/chenh2lab/TGY_2023
 cd TGY_2023
 ```
-**setup environment:**
+### setup environment:
 * `PyHIST.yml` is for image preprocessing (patch generation)
 * `PyTorch.yml` is for DL model training
 ```bash
