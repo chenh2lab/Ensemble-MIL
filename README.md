@@ -17,7 +17,7 @@ Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI di
 * Download `CPTAC-COAD` whole slide images from [CIP Cancer Imaging Program](https://www.cancerimagingarchive.net/collection/cptac-coad/) for model external testing.
 * Download corresponding biomarker label data for TCGA-COAD and CPTAC-COAD from [cBioPortal](https://www.cbioportal.org).
 ### Patch-level tissue category dataset
-* Download [TCGA-HE-89K](https://zenodo.org/records/4024676) dataset for tumor detection model training
+* Download [TCGA-HE-89K](https://zenodo.org/records/4024676) dataset for tumor detection model training.
 ## Installation
 ### clone this repository:
 ```bash
@@ -33,8 +33,9 @@ conda env create -f PyHIST.yml
 conda env create -f PyTorch.yml
 ```
 ## Image preprocessing
-Cut single WSI into 512 * 512 pixels patches
+Cut single WSI into 512 * 512 pixels patches.
 ```bash
 sh ./image_preprocessing/patch_generation/pyhist.sh
 ```
 ## Tumor detection model
+Use `TCGA-HE-89K` dataset to train a VGG19-based tumor detection model to classify tumor patches from all of the patches in WSI.
