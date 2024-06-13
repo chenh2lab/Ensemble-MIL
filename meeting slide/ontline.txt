@@ -133,5 +133,10 @@ meeting slides uploading
     1. Generative AI competition
     2. Electric Circuits TA works
 
-
+- Progress_report_20240613
+  Works:
+    1. Finish tissue category map for each WSI
+    2. Graph neural network
+  Others:
+    1. Electric Circuits TA works
 
