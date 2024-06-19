@@ -140,3 +140,7 @@ meeting slides uploading
   Others:
     1. Electric Circuits TA works
 
+- Progress_report_20240620
+  Works:
+    1. Finish all of the attention heatmap for different biomarker prediction 
+    2. 
