@@ -22,7 +22,7 @@ The pipeline commence with image preprocessing (Part A). Tumor detection model b
 ## Installation
 ### clone this repository:
 ```bash
-git clone https://github.com/chenh2lab/TGY_2023
+git clone https://github.com/chenh2lab/TGY_2023.git
 cd TGY_2023
 ```
 ### setup environment:
