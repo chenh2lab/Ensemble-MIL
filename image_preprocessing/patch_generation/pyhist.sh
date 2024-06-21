@@ -9,16 +9,16 @@
 #SBATCH --mail-user=willytien88@gmail.com    
 #SBATCH --mail-type=BEGIN,END,FAIL             
 
-cd ./root
+cd ./
 source activate ./anaconda3/envs/PyHIST
 
 k=1
 
-for filename in ./root/TCGA-COAD_WSI/diagnosis_slides/mpp/*.svs
+for filename in ./TCGA-COAD_WSI/diagnosis_slides/mpp/*.svs
 do
 id=$(basename "$filename" .svs)
 echo "Processing slide $k: $id"
-output_path="./root/pyhist/TCGA-COAD/"
+output_path="./pyhist/TCGA-COAD/"
 python /home/u1307362/PyHIST/pyhist.py \
 --method "otsu" \
 --patch-size 512 \
