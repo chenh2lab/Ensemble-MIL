@@ -19,7 +19,7 @@ do
 id=$(basename "$filename" .svs)
 echo "Processing slide $k: $id"
 output_path="./pyhist/TCGA-COAD/"
-python /home/u1307362/PyHIST/pyhist.py \
+python ./PyHIST/pyhist.py \
 --method "otsu" \
 --patch-size 512 \
 --content-threshold 0.85 \
