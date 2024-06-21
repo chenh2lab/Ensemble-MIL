@@ -28,10 +28,12 @@ cd TGY_2023
 ### setup environment:
 * `PyHIST.yml` is for image preprocessing (patch generation)
 * `PyTorch.yml` is for DL model training
+* `PyTorch_Geometric.yml` is for graph neural network training
 ```bash
 cd envs
 conda env create -f PyHIST.yml
 conda env create -f PyTorch.yml
+conda env create -f PyTorch_Geometric.yml
 ```
 ## Image preprocessing
 Clone [PyHIST](https://pyhist.readthedocs.io/en/latest/) repository.
