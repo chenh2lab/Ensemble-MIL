@@ -33,6 +33,10 @@ conda env create -f PyHIST.yml
 conda env create -f PyTorch.yml
 ```
 ## Image preprocessing
+Clone PyHIST repository.
+```bash
+git clone https://github.com/manuel-munoz-aguirre/PyHIST.git
+```
 Cut single WSI into 512 * 512 pixels patches.
 ```bash
 sh ./image_preprocessing/patch_generation/pyhist.sh
