@@ -33,7 +33,7 @@ conda env create -f PyHIST.yml
 conda env create -f PyTorch.yml
 ```
 ## Image preprocessing
-Clone PyHIST repository.
+Clone [PyHIST](https://pyhist.readthedocs.io/en/latest/) repository.
 ```bash
 git clone https://github.com/manuel-munoz-aguirre/PyHIST.git
 ```
