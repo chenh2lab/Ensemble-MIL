@@ -143,3 +143,9 @@ meeting slides uploading
 - Progress_report_20240620
   Works:
     1. Finish all of the attention heatmap for different biomarker prediction
+
+- Progress_report_20240627
+  Works:
+    1. Introduction, Material & Methods writing
+    2. Majority voting of three biomarker prediction model for MSI status detection
+
