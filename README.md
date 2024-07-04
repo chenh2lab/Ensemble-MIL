@@ -2,9 +2,7 @@
 Construct the integrated deep learning pipeline to predict BRAF, KRAS and MSI directly from pathological images in colorectal cancer.
 ## Pipeline
 The pipeline commence with image preprocessing (Part A). Tumor detection model based on VGG19 architecture are trained to classify tumor patches from raw patches (Part B). Tumor patches form training dataset for the SimCLR self- supervised learning model. Features of the tumor patches are extracted by the use of the self-supervised learning encoder, ResNet-50 (Part D). We adopt three different biomarker prediction models, namely: attention-based model, transformer-based model and gnn-based model. Eventually, majority voting aggregate each model prediction to enhance model performance.
-
-![Pipeline](./imgs/pipeline.jpg)
-
+![Pipeline](./imgs/pipeline.png)
 ## Prerequisites
 * Operating system: CentOS 7.8
 * Programmimg language: Python 3, sh
